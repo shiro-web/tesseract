@@ -1,7 +1,12 @@
 .imgWrapper{
     width: 200px;
+    margin: 0 auto;
 }
 
 .img{
     width: 100%;
+}
+
+.bold{
+    font-weight: bold;
 }
