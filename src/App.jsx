@@ -11,6 +11,7 @@ function App() {
 
   const handleFileChange = () => {
     if ( fileInputRef.current.files.length > 0) {
+      console.log(fileInputRef)
     const fileInputSrc = fileInputRef.current.files[0];
     console.log(fileInputSrc)
     const url = URL.createObjectURL(fileInputSrc);
